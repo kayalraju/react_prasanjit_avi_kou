@@ -1,24 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import User from './Props/User';
+import UseState from './UserStateHooks/UseState';
+import ArrayData from './UserStateHooks/ArrayData';
+import CountNumber from './useEffectHooks/CountNumber';
+import FetchUserData from './useEffectHooks/FetchUserData';
+import SearchData from './useEffectHooks/SearchData';
+import AxiosFetchUserData from './Axios/AxiosFetchUserData';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+    {/* <User name="Pritam" email="pritam@gmail.com"/> */}
+    {/* <User/> */}
+    {/* <UseState/> */}
+    {/* <ArrayData/> */}
+    {/* <CountNumber/> */}
+    {/* <FetchUserData/> */}
+    {/* <SearchData/> */}
+    <AxiosFetchUserData/>
+
+  </>
   );
 }
 
