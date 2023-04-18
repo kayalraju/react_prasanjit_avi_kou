@@ -7,6 +7,7 @@ import CountNumber from './useEffectHooks/CountNumber';
 import FetchUserData from './useEffectHooks/FetchUserData';
 import SearchData from './useEffectHooks/SearchData';
 import AxiosFetchUserData from './Axios/AxiosFetchUserData';
+import ContexRouting from './useContexHooks/ContexRouting';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
     {/* <CountNumber/> */}
     {/* <FetchUserData/> */}
     {/* <SearchData/> */}
-    <AxiosFetchUserData/>
+    {/* <AxiosFetchUserData/> */}
+
+    <ContexRouting/>
 
   </>
   );
